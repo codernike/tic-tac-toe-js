@@ -1,12 +1,18 @@
-body {
-    background-color: rgb(32, 32, 32);
-    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
-    color: rgb(230, 230, 230);
+.body-main {
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Indie Flower', 'Comic Sans', cursive;
     font-size: 0.7em;
+    height: 100vh;
+}
+.img-logo{
+    max-width: 150px;
+    min-width: 100px;
 }
 h1 {
+    
     line-height: 1em;
     margin-bottom: 0;
     padding-bottom: 5px;
@@ -38,7 +44,7 @@ table {
     border-collapse: collapse;
 }
 .td_game {
-    border: 4px solid rgb(230, 230, 230);
+    border: 4px solid rgb(255, 2, 2);
     width: 90px;
     height: 90px;
     padding: 0;
